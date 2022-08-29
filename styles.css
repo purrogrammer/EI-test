@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+
+
+:root {
+  --clr-primary-200: #f3eed9;
+  --clr-primary-400: #509325;
+
+  --clr-neutral-100: #fff;
+  --clr-neutral-900: #aa1653;
+
+}
+body {
+  background: #f0f8ea;
+  font-family: "Roboto";
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+    background-color: var(--clr-primary-400);
+    color: var(--clr-neutral-100);
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.intro {
+    margin-top: 3em;
+}
+
+.more-info {
+    margin-top: 3em;
+}
+
+.timeline {
+    margin-top: 3em;
+}
+
+.container {
+    font-size: 18px;
+}
+
+.dateline {
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+
+.date-text {
+    margin-bottom: 26px;
+}
