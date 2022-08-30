@@ -12,6 +12,8 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
     crossorigin="anonymous"
   />
+
+  
   </head>
     <body>
 
@@ -81,10 +83,34 @@ In the early 1900s, the section of the river that runs through present day Seatt
   <br><br>
 </div>
 </div>
-        
-<footer>
-  
-</footer>
+ <div class="container"> 
+<button id="changeButton" onclick="changeShape()">Click here to change shape below!</button> <br><br>
+<div class="container">
+<div id="triangle-transform" class="triangle">
+
+</div>
+
+</div>
+
+<script>
+function changeShape() {
+ 
+        if (document.getElementById("triangle-transform").className == "triangle") {
+            document.getElementById("triangle-transform").className = "square";
+        } else {
+            document.getElementById("triangle-transform").className = "triangle";
+        }
+}
+
+</script>
+
+
+
+<!-- <script src="scripts.js"></script> -->
+
+
+
+
     </body>
     </html>
 

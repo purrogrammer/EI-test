@@ -52,3 +52,22 @@ header {
 .date-text {
     margin-bottom: 26px;
 }
+/* Triangle transform  */
+
+  
+  .triangle{
+    width: 0; 
+    height: 0; 
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;    
+    border-left: 60px solid #509325;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background: hotpink;
+
+     }
+
+  
